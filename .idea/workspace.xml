@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76adf728-ecc4-406a-b214-86a2af898361" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ForkedUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GistFile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/GistListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GistListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TagsList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sagas/fetch-gists-saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sagas/fetch-gists-saga.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,16 +53,22 @@
       <file leaf-file-name="GistListItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/GistListItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="19" column="87" lean-forward="true" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="40">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForkedUser.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GistFile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/GistFile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForkedUser.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ForkedUser.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
@@ -105,15 +108,6 @@
         <entry file="file://$PROJECT_DIR$/src/css/GistsList.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-240" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forks.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/forks.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-            </state>
           </provider>
         </entry>
       </file>
@@ -184,9 +178,10 @@
         <option value="$PROJECT_DIR$/src/reducers/forks.js" />
         <option value="$PROJECT_DIR$/src/css/GistsList.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/components/GistListItem.js" />
         <option value="$PROJECT_DIR$/src/sagas/fetch-gists-saga.js" />
         <option value="$PROJECT_DIR$/src/components/ForkedUser.js" />
+        <option value="$PROJECT_DIR$/src/components/GistListItem.js" />
+        <option value="$PROJECT_DIR$/src/components/GistFile.js" />
       </list>
     </option>
   </component>
@@ -299,12 +294,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531402837345</updated>
       <workItem from="1531402838689" duration="8711000" />
-      <workItem from="1531476966180" duration="20190000" />
+      <workItem from="1531476966180" duration="20380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28901000" />
+    <option name="totallyTimeSpent" value="29091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -344,13 +339,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/reducers/gists.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/getStore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
@@ -632,6 +620,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ForkedUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sagas/fetch-gists-saga.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -644,18 +639,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/GistListItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" column="87" lean-forward="true" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="40">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ForkedUser.js">
+    <entry file="file://$PROJECT_DIR$/src/components/GistFile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state relative-caret-position="120">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>

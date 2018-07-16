@@ -1,5 +1,6 @@
 import React from 'react';
-import ForkedUser from './ForkedUser'
+import ForkedUser from './ForkedUser';
+import GistFile from './GistFile';
 
 const GistListItem = (gist) => {
     return <li>
@@ -8,10 +9,7 @@ const GistListItem = (gist) => {
             <span>{`Created at: ${new Date(gist.created_at).toDateString()}`}</span>
             <div className="gist-files">
                 <span>Files:</span>
-                {Object.values(gist.files).map((item) => (<div key={item.filename}>
-                    <a href={item.raw_url} target="_blank">{item.filename}</a>
-                    <code>{item.language ? item.language : item.type}</code>
-                </div>))}
+                {Object.values(gist.files).map((item) => (<GistFile key={item.filename} file={item}/>))}
             </div>
             {
                 gist.forks.length > 0 ?

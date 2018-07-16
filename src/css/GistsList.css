@@ -1,0 +1,38 @@
+.gists .search-bar {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.gists .gists-list-container .user-card, .gists .gists-list-container .gists-list {
+  display: inline-block; }
+
+.gists .gists-list-container .user-card {
+  float: left;
+  width: 40%; }
+
+.gists .gists-list {
+  width: 55%;
+  list-style: none; }
+  .gists .gists-list li {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px; }
+    .gists .gists-list li h3 {
+      display: block; }
+    .gists .gists-list li span {
+      display: block; }
+    .gists .gists-list li .gist-files div a, .gists .gists-list li .gist-files div code {
+      display: inline;
+      margin-right: 5px; }
+    .gists .gists-list li .gist-files div code {
+      background-color: #cbcbcb;
+      color: #bc0000; }
+    .gists .gists-list li .gist-forks .fork-user {
+      display: inline-block; }
+      .gists .gists-list li .gist-forks .fork-user img {
+        width: 35px;
+        height: 35px;
+        border-radius: 3px;
+        margin-left: 5px;
+        margin-right: 5px; }

@@ -1,0 +1,57 @@
+.gists {
+  .search-bar{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .gists-list-container {
+    .user-card, .gists-list {
+      display: inline-block;
+    }
+    .user-card{
+      float: left;
+      width: 40%;
+    }
+  }
+  .gists-list{
+    width: 55%;
+    list-style: none;
+    li{
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      margin-bottom: 5px;
+      text-align: left;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      h3{
+        display: block;
+      }
+      span{
+        display: block;
+      }
+      .gist-files{
+        div{
+          a, code{
+            display: inline;
+            margin-right: 5px;
+          }
+          code{
+            background-color: #cbcbcb;
+            color: #bc0000;
+          }
+        }
+      }
+      .gist-forks{
+        .fork-user {
+          display: inline-block;
+          img {
+            width: 35px;
+            height: 35px;
+            border-radius: 3px;
+            margin-left: 5px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+

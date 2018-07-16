@@ -1,4 +1,5 @@
 import React from 'react';
+import ForkedUser from './ForkedUser'
 
 const GistListItem = (gist) => {
     return <li>
@@ -16,11 +17,7 @@ const GistListItem = (gist) => {
                 gist.forks.length > 0 ?
                     <div className="gist-forks">
                         <span>Forks:</span>
-                        {gist.forks.map((item) => (<div className={"fork-user"} key={item.id}>
-                            <a href={item.owner.url} target="_blank">
-                                <img src={item.owner.avatar_url} alt={item.owner.login}/>
-                            </a>
-                        </div>))}
+                        {gist.forks.map((item) => (<ForkedUser key={item.id} fork={item}/>))}
                     </div>
                     :
                     <div>No Forks</div>

@@ -13,7 +13,6 @@ function* handleFetchGists({userName}) {
         let item = yield fetch(gistForks(gists[i].id));
         gists[i]['forks'] = yield item.json();
     }
-    debugger;
     let userDataRaw = yield fetch(userData(userName));
     let user = yield userDataRaw.json();
     yield put({

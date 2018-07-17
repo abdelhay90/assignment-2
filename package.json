@@ -57,7 +57,7 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "postinstall": "npm install -g npm-run-all create-react-app",
+    "postinstall": "npm install -g npm-run-all create-react-app react-scripts",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",

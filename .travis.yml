@@ -11,9 +11,3 @@ before_script:
 
 script:
   - npm run build
-deploy:
-  provider: surge
-  project: ./build
-  domain: parent-pa.surge.sh
-  token: b5ed1767191534ce771f774835c92657
-  skip_cleanup: true
